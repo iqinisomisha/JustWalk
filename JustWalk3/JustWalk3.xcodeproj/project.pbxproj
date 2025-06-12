@@ -17,7 +17,7 @@
 		C645C19D2DFAF845000C69BD /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C19C2DFAF845000C69BD /* Color+Theme.swift */; };
 		C645C1A02DFAF9E2000C69BD /* RouteShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C19F2DFAF9E2000C69BD /* RouteShape.swift */; };
 		C645C1A22DFAFA05000C69BD /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A12DFAFA05000C69BD /* StatText.swift */; };
-		C645C1A42DFAFA21000C69BD /*  BlurButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A32DFAFA21000C69BD /*  BlurButton.swift */; };
+		C645C1A42DFAFA21000C69BD /* BlurButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A32DFAFA21000C69BD /* BlurButton.swift */; };
 		C645C1A62DFAFA4E000C69BD /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A52DFAFA4E000C69BD /* WalkingView.swift */; };
 		C645C1A82DFAFA6C000C69BD /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A72DFAFA6C000C69BD /* LibraryView.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,7 @@
 		C645C19C2DFAF845000C69BD /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
 		C645C19F2DFAF9E2000C69BD /* RouteShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteShape.swift; sourceTree = "<group>"; };
 		C645C1A12DFAFA05000C69BD /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
-		C645C1A32DFAFA21000C69BD /*  BlurButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BlurButton.swift"; sourceTree = "<group>"; };
+		C645C1A32DFAFA21000C69BD /* BlurButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurButton.swift; sourceTree = "<group>"; };
 		C645C1A52DFAFA4E000C69BD /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
 		C645C1A72DFAFA6C000C69BD /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		C645C1A92DFB05D2000C69BD /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PatrickHand-Regular.ttf"; path = "../../Downloads/Patrick_Hand/PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 			children = (
 				C645C19F2DFAF9E2000C69BD /* RouteShape.swift */,
 				C645C1A12DFAFA05000C69BD /* StatText.swift */,
-				C645C1A32DFAFA21000C69BD /*  BlurButton.swift */,
+				C645C1A32DFAFA21000C69BD /* BlurButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C645C1892DFAE093000C69BD /* ContentView.swift in Sources */,
-				C645C1A42DFAFA21000C69BD /*  BlurButton.swift in Sources */,
+				C645C1A42DFAFA21000C69BD /* BlurButton.swift in Sources */,
 				C645C1872DFAE093000C69BD /* JustWalk3App.swift in Sources */,
 				C645C1A22DFAFA05000C69BD /* StatText.swift in Sources */,
 				C645C1992DFAF80F000C69BD /* IdleView.swift in Sources */,
