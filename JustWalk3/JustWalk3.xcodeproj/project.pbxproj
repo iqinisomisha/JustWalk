@@ -19,7 +19,8 @@
 		C645C1A22DFAFA05000C69BD /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A12DFAFA05000C69BD /* StatText.swift */; };
 		C645C1A42DFAFA21000C69BD /*  BlurButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A32DFAFA21000C69BD /*  BlurButton.swift */; };
 		C645C1A62DFAFA4E000C69BD /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A52DFAFA4E000C69BD /* WalkingView.swift */; };
-		C645C1A82DFAFA6C000C69BD /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A72DFAFA6C000C69BD /* LibraryView.swift */; };
+			C645C1A82DFAFA6C000C69BD /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C1A72DFAFA6C000C69BD /* LibraryView.swift */; };
+			C645C1AB2DFB061F000C69BD /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C645C1A92DFB05D2000C69BD /* PatrickHand-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,7 @@
 		C645C1A32DFAFA21000C69BD /*  BlurButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BlurButton.swift"; sourceTree = "<group>"; };
 		C645C1A52DFAFA4E000C69BD /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
 		C645C1A72DFAFA6C000C69BD /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
-		C645C1A92DFB05D2000C69BD /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PatrickHand-Regular.ttf"; path = "../../Downloads/Patrick_Hand/PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+C645C1A92DFB05D2000C69BD /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PatrickHand-Regular.ttf"; path = "Fonts/PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +180,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C645C18E2DFAE095000C69BD /* Preview Assets.xcassets in Resources */,
-				C645C18B2DFAE095000C69BD /* Assets.xcassets in Resources */,
+C645C18B2DFAE095000C69BD /* Assets.xcassets in Resources */,
+C645C1AB2DFB061F000C69BD /* PatrickHand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +335,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+INFOPLIST_KEY_UIAppFonts = (
+"Fonts/PatrickHand-Regular.ttf",
+);
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,8 +366,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+INFOPLIST_KEY_UIAppFonts = (
+"Fonts/PatrickHand-Regular.ttf",
+);
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
